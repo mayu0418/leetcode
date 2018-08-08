@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.ArrayList;
+
 public class Jewels_and_Stones {
 	
 	/*You're given strings J representing the types of stones that are jewels, 
@@ -12,14 +14,26 @@ public class Jewels_and_Stones {
 	Output: 3
 	*/
 	
-	public int numJewelsInStones(String J, String S) {
-        
-		return 0;
+	public static int numJewelsInStones(String J, String S) {
+		ArrayList<Character> aryList = new ArrayList<Character>();
+		for (Character character : J.toCharArray()) {
+			aryList.add(character);
+		}
+		int count = 0;
+		for (char c : S.toCharArray()) {
+			if (aryList.contains(c)) {
+				count++;
+			}
+		}
+		return count;
     }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		String J = "aA";
+		String S = "aAAbbbb";
+		int count = Jewels_and_Stones.numJewelsInStones(J, S);
+		System.out.println(count);
 	}
 
 }
