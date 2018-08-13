@@ -16,7 +16,12 @@ public class Flipping_an_Image {
 		Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
 */	
 	public int[][] flipAndInvertImage(int[][] A) {
-        return null;
+		for (int i = 0; i < A.length; i++) {
+			for (int j = 0; j < A[i].length; j++) {
+				A[i][j] = A[i][j] == 0 ? 1 : 0;
+			}
+		}
+        return A;
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
