@@ -17,6 +17,18 @@ public class Flipping_an_Image {
 */	
 	public int[][] flipAndInvertImage(int[][] A) {
 		for (int i = 0; i < A.length; i++) {
+			int[] intAry = A[i];
+			int i1 = 0;
+			int j = intAry.length - 1;
+			while (i1 < j) {
+				int n = intAry[i1];
+				intAry[i1] = intAry[j];
+				intAry[j] = n;
+				i1++;
+				j--;
+			}
+		}
+		for (int i = 0; i < A.length; i++) {
 			for (int j = 0; j < A[i].length; j++) {
 				A[i][j] = A[i][j] == 0 ? 1 : 0;
 			}
