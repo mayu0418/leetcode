@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a00e864-bf53-4c19-99b9-2f21ebd97022" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="23" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="23" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2405" />
+          <entry key="java" value="2507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2405" />
+          <entry key="JAVA" value="2507" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Subdomain_Visit_Count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="72" column="9" lean-forward="true" selection-end-line="81" />
+            <state relative-caret-position="180">
+              <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1364#1372#0" expanded="true" />
@@ -80,24 +79,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Delete_Node_in_a_Linked_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="2407" column="19" lean-forward="true" selection-start-line="2407" selection-start-column="11" selection-end-line="2407" selection-end-column="19" />
+            <state relative-caret-position="43">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
-                <element signature="e#58122#58123#0" expanded="true" />
-                <element signature="e#58159#58160#0" expanded="true" />
-                <element signature="e#94239#94240#0" expanded="true" />
-                <element signature="e#94277#94278#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/Maximum_Depth_of_N_ary_Tree.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Subdomain_Visit_Count.java" />
         <option value="$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Delete_Node_in_a_Linked_List.java" />
       </list>
     </option>
   </component>
@@ -230,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537317762767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537318393749" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RunDashboard">
@@ -339,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.32810047" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.32810047" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +345,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016155" side_tool="true" weight="0.32810047" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.13814756" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.13814756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,10 +480,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/N_ary_Tree_Preorder_Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Subdomain_Visit_Count.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="72" column="9" lean-forward="true" selection-end-line="81" />
+        <state relative-caret-position="180">
+          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1364#1372#0" expanded="true" />
@@ -494,17 +499,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/N_ary_Tree_Preorder_Traversal.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="43">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/MYCommonDataStructure.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Delete_Node_in_a_Linked_List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
