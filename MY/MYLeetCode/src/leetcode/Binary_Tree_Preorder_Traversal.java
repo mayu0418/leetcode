@@ -13,14 +13,14 @@ public class Binary_Tree_Preorder_Traversal {
 //        return list;
         List<Integer> list = new LinkedList<Integer>();
         Stack<TreeNode> rights = new Stack<TreeNode>();
-        while(node != null) {
-            list.add(node.val);
-            if (node.right != null) {
-                rights.push(node.right);
+        while(root != null) {
+            list.add(root.val);
+            if (root.right != null) {
+                rights.push(root.right);
             }
-            node = node.left;
-            if (node == null && !rights.isEmpty()) {
-                node = rights.pop();
+            root = root.left;
+            if (root == null && !rights.isEmpty()) {
+                root = rights.pop();
             }
         }
         return list;
