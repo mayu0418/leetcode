@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+//给定数组，找出3个数和为0的组合
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length == 0) return new ArrayList<>();
