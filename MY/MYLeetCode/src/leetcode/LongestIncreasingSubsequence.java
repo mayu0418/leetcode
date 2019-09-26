@@ -28,11 +28,7 @@ public class LongestIncreasingSubsequence {
             }
             resAry[i] = max;
         }
-        int max = 0;
-        for (int i = 0; i < resAry.length; i++) {
-            max = Math.max(resAry[i],max)
-        }
-        return max;
+        return resAry[0];
     }
     public static void main(String[] args) {
         int[] ary = {10,9,2,5,3,7,101,18};
