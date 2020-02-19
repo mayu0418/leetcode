@@ -19,5 +19,8 @@
         <page name='TwoSum'/>
         <page name='TwoSumII'/>
         <page name='ThreeSum'/>
+        <page name='ThreeSumClosest'/>
+        <page name='FourSum'/>
+        <page name='IncreasingTripletSubsequence'/>
     </pages>
 </playground>
