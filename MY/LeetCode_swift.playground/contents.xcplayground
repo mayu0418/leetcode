@@ -25,5 +25,10 @@
         <page name='SummaryRanges'/>
         <page name='MinimumSizeSubarraySum'/>
         <page name='ProductExceptSelf'/>
+        <page name='RotateArray'/>
+        <page name='RotateImage'/>
+        <page name='SpiralMatrix'/>
+        <page name='SpiralMatrixII'/>
+        <page name='DiagonalTraverse'/>
     </pages>
 </playground>
